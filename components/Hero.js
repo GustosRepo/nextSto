@@ -5,13 +5,13 @@ import {motion, useScroll, useTransform} from 'framer-motion'
 const Hero = () => {
 
   let {scrollXProgress} = useScroll();
-  let scale = useTransform(scrollXProgress, [0, 0], ["-100%", "100%"]);
+  let Scale = useTransform(scrollXProgress, [0, 0], ["-100%", "100%"]);
   
   return (
     <motion.div
     className="absolute left-0 w-full h-full px-8 bg-red-800"
     initial={{ x:"-100%" }} animate={{ x:"0%" }} 
-    exit={{ opacity: 1 }} style={{scale}}
+    exit={{ opacity: 1 }} style={{Scale}}
     transition={{duration: .75, ease: "easeOut"}}>
         <div className="relative ">
         <motion.div
@@ -30,7 +30,7 @@ const Hero = () => {
         <main className = "flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover">
         <section className="flex flex-col">
           <p className="flex justify-center font-thin text-white animate-fade-in-down">
-          Sto's Digital Solutions'</p>    
+          Stos Digital Solutions</p>    
           <div className="z-50 flex justify-center text-white place-items-center animate-fade-in-down">
               <Image src="/sds.svg" alt="Sto's Digital Solutions" width="250" height="250"/>
           </div>

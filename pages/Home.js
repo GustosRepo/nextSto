@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
 import Hero from '../components/Hero'
 
 export function Home() {
@@ -9,7 +9,7 @@ export function Home() {
     <motion.div
     className="absolute top-0 left-0 w-full h-full text-white">
       <Head>
-        <title>Sto's Digital Solutions'</title>
+        <title>Stos Digital Solutions</title>
         <meta name="description" content="Website development" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>

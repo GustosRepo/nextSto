@@ -1,18 +1,15 @@
 import React from 'react'
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion } from "framer-motion"
 import Link from 'next/link'
 import Footer from '../components/Footer'
 
 
 function contact() {
 
-    let {scrollXProgress} = useScroll();
-    let scale = useTransform(scrollXProgress, [1, 1], ["0%", "100%"]);
-    
   return (
     <motion.div className="absolute top-0 left-0 flex flex-col justify-center w-full h-full text-center bg-black align-center "
     initial={{ x:"100%" }} animate={{ x:"0%" }} 
-    exit={{ opacity: 1 }} style={{scale}}
+    exit={{ opacity: 1 }} 
     transition={{duration: .75, ease: "easeOut"}}
     >   
         <div className="flex flex-col justify-center w-full text-center bg-fixed bg-black bg-center h-3/4 align-center ">

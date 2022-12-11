@@ -66,7 +66,7 @@ function loading() {
         </div>
         <div class=" font-sans fixed w-[100%] h-full
          flex items-center -z-20 text-5xl justify-center
-         ">Sto's Digital Solutions'</div>
+         ">Stos Digital Solutions</div>
     </div>
   )
 }
