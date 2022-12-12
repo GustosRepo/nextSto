@@ -18,6 +18,9 @@ function process() {
 
   
   return (
+    <>
+      <title>Process</title>
+      <link rel="icon" href="/sds.svg" />
     <motion.div
     className="absolute top-0 left-0 flex flex-col justify-center w-full h-full px-5 text-center bg-red-800 align-center lg:px-48 "
     initial={{ y:"-100%" }} animate={{ y:"0%" }} 
@@ -55,7 +58,7 @@ function process() {
         </p>
         </motion.div> 
         <motion.div
-        initial={{ x:"300%" }} animate={{ x:"0%" }}
+        initial={{ x:"-100%" }} animate={{ x:"0%" }}
         transition={{ duration: 3, ease: "easeOut"}}
         >
         <h1 className="text-lg">Step Four </h1>
@@ -102,6 +105,7 @@ function process() {
         </div>
       </div>
     </motion.div>
+  </>
   )
 }
 

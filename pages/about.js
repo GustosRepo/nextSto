@@ -8,6 +8,8 @@ function about() {
   
 return (
       <>
+        <title>About</title>
+        <link rel="icon" href="/sds.svg" />
         <motion.main className="absolute top-0 left-0 flex flex-col justify-center w-full h-full px-16 text-center bg-black align-center "
             initial={{ y:"100%" }} animate={{ y:"0%" }} 
             exit={{ opacity: 1  }}

@@ -7,6 +7,9 @@ import Footer from '../components/Footer'
 function contact() {
 
   return (
+    <>
+    <title>Contact</title>
+    <link rel="icon" href="/sds.svg" />
     <motion.div className="absolute top-0 left-0 flex flex-col justify-center w-full h-full text-center bg-black align-center "
     initial={{ x:"100%" }} animate={{ x:"0%" }} 
     exit={{ opacity: 1 }} 
@@ -26,7 +29,7 @@ function contact() {
         </div>
         <Footer />
     </motion.div>
-    
+    </>
   )
 }
 
