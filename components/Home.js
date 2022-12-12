@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import Hero from '../components/Hero'
+import Hero from './Hero'
 
 export function Home() {
 
