@@ -9,7 +9,7 @@ function contact() {
   return (
     <>
     <title>Contact</title>
-    <link rel="icon" href="/sds.svg" />
+    <link rel="icon" src="/sds.svg" />
     <motion.div className="absolute top-0 left-0 flex flex-col justify-center w-full h-full text-center bg-black align-center "
     initial={{ x:"100%" }} animate={{ x:"0%" }} 
     exit={{ opacity: 1 }} 
