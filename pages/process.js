@@ -26,8 +26,8 @@ function process() {
     initial={{ y:"-100%" }} animate={{ y:"0%" }} 
     exit={{ opacity: 1 }} 
     transition={{duration: .75, ease: "easeOut"}}>
-      <div className="text-sm translate-y-15 ">
-      <div className="flex flex-col justify-center pt-32 text-white "  >      
+      <div className="text-sm translate-y-20 top-8">
+      <div className="flex flex-col justify-center pt-32 text-white max-[495px]:text-[8px] max-[400px]:text-[8px] max-[720px]:text-[8px] "  >      
         <motion.div
         className="translate-x-0"
         scale={{ scale: [1, 1.5, 1.5, 1, 1], rotate: [0, 0, 270, 270, 0] }}
